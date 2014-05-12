@@ -1,0 +1,12 @@
+Source: ros-groovy-baxter-tools
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-baxter-core-msgs, ros-groovy-baxter-interface, ros-groovy-baxter-maintenance-msgs, ros-groovy-catkin, ros-groovy-cv-bridge, ros-groovy-geometry-msgs, ros-groovy-rospy, ros-groovy-sensor-msgs
+Homepage: http://www.rethinkrobotics.com/sdk
+Standards-Version: 3.9.2
+
+Package: ros-groovy-baxter-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-baxter-core-msgs, ros-groovy-baxter-interface, ros-groovy-baxter-maintenance-msgs, ros-groovy-cv-bridge, ros-groovy-geometry-msgs, ros-groovy-rospy, ros-groovy-sensor-msgs
+Description: Useful operational and maintenance tools for use with the Baxter Research Robot from Rethink Robotics
