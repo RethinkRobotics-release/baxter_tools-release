@@ -1,0 +1,27 @@
+ros-hydro-baxter-tools (1.1.0-0precise) precise; urgency=high
+
+  * Updates baxter_tools for ROS Indigo (queue_size args for Publishers, using cv2 as OpenCV dependancy)
+  * Updates smoke_tests to use 64-bit Indigo Camera fix
+
+ -- Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>  Wed, 17 Dec 2014 05:00:00 -0000
+
+ros-hydro-baxter-tools (1.0.0-0precise) precise; urgency=high
+
+  * Updates baxter_tools scripts to verify software version compatibility
+  * Updates update_robot adding instructions for attaching grippers before proceeding with update
+  * Fixes update_robot timeout for identifying available updates by increasing timeout to five seconds
+
+ -- Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>  Thu, 01 May 2014 04:00:00 -0000
+
+ros-hydro-baxter-tools (0.7.0-0precise) precise; urgency=high
+
+  * Creation of baxter_tools repository from sdk-examples/tools.
+  * Package restructure in support of Catkin expected standards.
+  * Adds camera_control from previous location in baxter_examples.
+  * Adds check for grippers pre-tare/calibrate.
+  * Adds reset to camera_control tool. Useful when not all cameras enumerated at boot.
+  * Fixes tucks arms allowing for clean handling of interrupts and partial tucks.
+
+ -- Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>  Thu, 21 Nov 2013 05:00:00 -0000
+
+
