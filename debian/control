@@ -1,0 +1,12 @@
+Source: ros-indigo-baxter-tools
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-baxter-core-msgs, ros-indigo-baxter-interface, ros-indigo-baxter-maintenance-msgs, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-geometry-msgs, ros-indigo-rospy, ros-indigo-sensor-msgs
+Homepage: http://sdk.rethinkrobotics.com
+Standards-Version: 3.9.2
+
+Package: ros-indigo-baxter-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-baxter-core-msgs, ros-indigo-baxter-interface, ros-indigo-baxter-maintenance-msgs, ros-indigo-cv-bridge, ros-indigo-geometry-msgs, ros-indigo-rospy, ros-indigo-sensor-msgs
+Description: Useful operational and maintenance tools for use with the Baxter Research Robot from Rethink Robotics
